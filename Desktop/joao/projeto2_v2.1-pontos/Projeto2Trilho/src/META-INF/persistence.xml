@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="Projeto2TrilhoPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>projeto2trilho.DAL.FotoPonto</class>
+    <class>projeto2trilho.DAL.Grupo</class>
+    <class>projeto2trilho.DAL.Trilho</class>
+    <class>projeto2trilho.DAL.PagamentoExcursao</class>
+    <class>projeto2trilho.DAL.Ponto</class>
+    <class>projeto2trilho.DAL.FotoTrilho</class>
+    <class>projeto2trilho.DAL.Utilizador</class>
+    <class>projeto2trilho.DAL.ClassTrilho</class>
+    <class>projeto2trilho.DAL.ClassAlo</class>
+    <class>projeto2trilho.DAL.Excursao</class>
+    <class>projeto2trilho.DAL.Alojamento</class>
+    <class>projeto2trilho.DAL.Guia</class>
+    <class>projeto2trilho.DAL.Imagem</class>
+    <class>projeto2trilho.DAL.FotoAlojamento</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:XE"/>
+      <property name="javax.persistence.jdbc.user" value="JOAO"/>
+      <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+      <property name="javax.persistence.jdbc.password" value="12345"/>
+      <property name="javax.persistence.schema-generation.database.action" value="create"/>
+    </properties>
+  </persistence-unit>
+</persistence>
