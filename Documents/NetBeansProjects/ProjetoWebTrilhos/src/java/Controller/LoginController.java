@@ -17,7 +17,7 @@ import Model.UtilizadorJpaController;
 @Controller
 public class LoginController extends AbstractController{
 
-	@RequestMapping(value="/login")
+	@RequestMapping(value="/index")
 	@Override
 	protected ModelAndView handleRequestInternal(HttpServletRequest request, HttpServletResponse response)
 			throws Exception {
