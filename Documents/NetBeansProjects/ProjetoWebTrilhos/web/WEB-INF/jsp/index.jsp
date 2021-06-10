@@ -1,26 +1,13 @@
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-    "http://www.w3.org/TR/html4/loose.dtd">
-
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Welcome to Spring Web MVC project</title>
-    </head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <title>JSP Page</title> </head> 
+<body> <h1>Login Page</h1> <center> <h2>Signup Details</h2> 
+    <form action="LoginCheck.jsp" method="post"> <br/>Username:<input type="text" name="email"> <br/>Password:
+        <input type="password" name="password"> <br/><input type="submit" value="Submit"> </form> </center>
 
-   <body>
-
-<h2>Bem vindo</h2>
-
-<form action="/action_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="Doe"><br><br>
-  <input type="submit" value="Submit">
-</form> 
-
-<p></p>
-
-</body>
+Read more: http://mrbool.com/how-to-create-a-login-form-with-jsp/25685#ixzz6xPGckIVK
+    </body>
 </html>
+
